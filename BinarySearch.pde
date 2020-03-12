@@ -1,6 +1,5 @@
 private Item[] store = 
-{
-  new Item(184, 14), 
+{ new Item(184, 14), 
   new Item(196, 60), 
   new Item(206, 31), 
   new Item(2370, 65), 
@@ -67,8 +66,7 @@ public int recursiveBinarySearch(int catNumToFind,int nLow,int nHigh){
     return recursiveBinarySearch(catNumToFind,guess+1,nHigh);
   }
 }
-public void setup()
-{
+public void setup(){
   int[] tests = {0, 183, 184, 2370, 15320, 19967, 19968};
   System.out.println();
   System.out.println("Testing Non-Recursive Linear Search");
@@ -115,10 +113,8 @@ public void setup()
       System.out.println("Catalog #"+tests[i]+" not found");
   }
 }
-
-public void draw()
-{
-  //empty!
+public void draw(){
+  //nothing dude!
 }
 
 
