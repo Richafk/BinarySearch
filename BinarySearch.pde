@@ -84,7 +84,6 @@ public void setup(){
   System.out.println("=====================");
   for (int i = 0; i < tests.length; i++)
   {
-
     if (recursiveLinearSearch(tests[i],0) != -1)
       System.out.println("Catalog #"+tests[i]+" has "+recursiveLinearSearch(tests[i],0) + " in stock");
     else
